@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "writing-prompts"
+version = "0.1.0"
+description = "Program will create a writing prompt based on the setting you provide"
+authors = ["dolsen0 <derek.olsen@gmail.com>"]
+license = "dolsen0"
+readme = "README.md"
+packages = [{include = "writing_prompts"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
